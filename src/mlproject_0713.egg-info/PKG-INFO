@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: mlproject_0713
+Version: 0.0.0
+Summary: A small python package for ml app
+Home-page: https://github.com/TS0713/MLFLOW-END-TO-END-0713
+Author: TS0713
+Author-email: tsp0713@gmail.com
+Project-URL: Bug Tracker, https://github.com/TS0713/MLFLOW-END-TO-END-0713/issues
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# mlflow-end-to-end-0713
+MLFLOW Project End to End
