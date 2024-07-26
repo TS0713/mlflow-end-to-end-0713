@@ -1,1 +1,146 @@
 [2024-07-23 21:33:30,765: INFO: main: Hello World!! custom logging]
+[2024-07-24 23:29:03,838: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-24 23:29:03,839: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-24 23:29:58,713: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-24 23:29:58,720: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-24 23:29:58,727: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-07-24 23:29:58,729: INFO: common: Created Directory at:artifacts]
+[2024-07-24 23:29:58,731: INFO: common: Created Directory at:artifacts/data_ingestion]
+[2024-07-24 23:29:59,688: INFO: 2274507667: artifacts/data_ingestion/data.zip download! with following info: \Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 5DA2:7294E:10EF5C:155F0D:66A1411F
+Accept-Ranges: bytes
+Date: Wed, 24 Jul 2024 17:59:59 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4730-BOM
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1721843999.476161,VS0,VE270
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: f3d44b51d0f057ba3c662212f24d88468c24a674
+Expires: Wed, 24 Jul 2024 18:04:59 GMT
+Source-Age: 0
+
+]
+[2024-07-25 22:10:40,129: INFO: main: >>>>>>>>>> stage Data Ingestion Stage started <<<<<<<<<<<]
+[2024-07-25 22:10:40,129: ERROR: main: DataIngestionConfig.__init__() missing 4 required positional arguments: 'root_dir', 'source_URL', 'local_data_file', and 'unzip_dir']
+Traceback (most recent call last):
+  File "D:\EndToEnd\MLFLOW\mlflow-end-to-end-0713\main.py", line 14, in <module>
+    data_ingestion.main()
+  File "D:\EndToEnd\MLFLOW\mlflow-end-to-end-0713\src\mlproject_0713\pipeline\stage_01_data_ingestion.py", line 13, in main
+    config = DataIngestionConfig()
+TypeError: DataIngestionConfig.__init__() missing 4 required positional arguments: 'root_dir', 'source_URL', 'local_data_file', and 'unzip_dir'
+[2024-07-25 22:16:53,019: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-25 22:16:53,022: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-25 22:16:53,023: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-07-25 22:16:53,025: INFO: common: Created Directory at:artifacts]
+[2024-07-25 22:16:53,026: INFO: common: Created Directory at:artifacts/data_ingestion]
+[2024-07-25 22:16:53,906: INFO: 2355822613: artifacts/data_ingestion/data.zip download! with following info: \Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: DA70:6F571:20D078:296145:66A2817B
+Accept-Ranges: bytes
+Date: Thu, 25 Jul 2024 16:46:53 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10231-MAA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1721926013.798363,VS0,VE283
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 2d49badf25769382af80f35bfd40e4b5912ee163
+Expires: Thu, 25 Jul 2024 16:51:53 GMT
+Source-Age: 0
+
+]
+[2024-07-25 22:18:54,673: INFO: main: >>>>>>>>>> stage Data Ingestion Stage started <<<<<<<<<<<]
+[2024-07-25 22:18:54,673: ERROR: main: DataIngestionConfig.__init__() missing 4 required positional arguments: 'root_dir', 'source_URL', 'local_data_file', and 'unzip_dir']
+Traceback (most recent call last):
+  File "D:\EndToEnd\MLFLOW\mlflow-end-to-end-0713\main.py", line 14, in <module>
+    data_ingestion.main()
+  File "D:\EndToEnd\MLFLOW\mlflow-end-to-end-0713\src\mlproject_0713\pipeline\stage_01_data_ingestion.py", line 13, in main
+    config = DataIngestionConfig()
+TypeError: DataIngestionConfig.__init__() missing 4 required positional arguments: 'root_dir', 'source_URL', 'local_data_file', and 'unzip_dir'
+[2024-07-25 22:36:12,673: INFO: main: >>>>>>>>>> stage Data Ingestion Stage started <<<<<<<<<<<]
+[2024-07-25 22:36:12,675: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-25 22:36:12,676: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-25 22:36:12,677: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-07-25 22:36:12,677: INFO: common: Created Directory at:artifacts]
+[2024-07-25 22:36:12,678: INFO: common: Created Directory at:artifacts/data_ingestion]
+[2024-07-25 22:36:13,504: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: \Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 4AC2:219EF6:224230:2AE174:66A28603
+Accept-Ranges: bytes
+Date: Thu, 25 Jul 2024 17:06:12 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4727-BOM
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1721927172.430998,VS0,VE260
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 841260e8939797901764b12aa90e395886e16b15
+Expires: Thu, 25 Jul 2024 17:11:12 GMT
+Source-Age: 0
+
+]
+[2024-07-25 22:36:13,537: INFO: main: >>>>>>>>>> stage Data Ingestion Stage completed <<<<<<<<<<<
+
+x================x]
+[2024-07-25 22:36:24,533: INFO: main: >>>>>>>>>> stage Data Ingestion Stage started <<<<<<<<<<<]
+[2024-07-25 22:36:24,534: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-25 22:36:24,535: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-25 22:36:24,536: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-07-25 22:36:24,536: INFO: common: Created Directory at:artifacts]
+[2024-07-25 22:36:24,536: INFO: common: Created Directory at:artifacts/data_ingestion]
+[2024-07-25 22:36:24,536: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2024-07-25 22:36:24,539: INFO: main: >>>>>>>>>> stage Data Ingestion Stage completed <<<<<<<<<<<
+
+x================x]
+[2024-07-25 22:36:48,938: INFO: main: >>>>>>>>>> Data Ingestion Stage started <<<<<<<<<<<]
+[2024-07-25 22:36:48,939: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-25 22:36:48,940: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-25 22:36:48,941: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-07-25 22:36:48,941: INFO: common: Created Directory at:artifacts]
+[2024-07-25 22:36:48,941: INFO: common: Created Directory at:artifacts/data_ingestion]
+[2024-07-25 22:36:48,942: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2024-07-25 22:36:48,944: INFO: main: >>>>>>>>>> Data Ingestion Stage completed <<<<<<<<<<<
+
+x================x]
+[2024-07-26 08:57:57,710: INFO: main: >>>>>>>>>> Data Ingestion Stage started <<<<<<<<<<<]
+[2024-07-26 08:57:57,712: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-26 08:57:57,713: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 08:57:57,714: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-07-26 08:57:57,714: INFO: common: Created Directory at:artifacts]
+[2024-07-26 08:57:57,715: INFO: common: Created Directory at:artifacts/data_ingestion]
+[2024-07-26 08:57:57,715: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2024-07-26 08:57:57,730: INFO: main: >>>>>>>>>> Data Ingestion Stage completed <<<<<<<<<<<
+
+x================x]

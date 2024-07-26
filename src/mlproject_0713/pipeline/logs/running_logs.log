@@ -1,0 +1,24 @@
+[2024-07-25 22:12:24,598: INFO: stage_01_data_ingestion: >>>>>>>>>> stage Data Ingestion Stage started <<<<<<<<<<<]
+[2024-07-25 22:12:24,599: ERROR: stage_01_data_ingestion: DataIngestionConfig.__init__() missing 4 required positional arguments: 'root_dir', 'source_URL', 'local_data_file', and 'unzip_dir']
+Traceback (most recent call last):
+  File "D:\EndToEnd\MLFLOW\mlflow-end-to-end-0713\src\mlproject_0713\pipeline\stage_01_data_ingestion.py", line 24, in <module>
+    obj.main()
+  File "D:\EndToEnd\MLFLOW\mlflow-end-to-end-0713\src\mlproject_0713\pipeline\stage_01_data_ingestion.py", line 13, in main
+    config = DataIngestionConfig()
+TypeError: DataIngestionConfig.__init__() missing 4 required positional arguments: 'root_dir', 'source_URL', 'local_data_file', and 'unzip_dir'
+[2024-07-25 22:35:17,608: INFO: stage_01_data_ingestion: >>>>>>>>>> stage Data Ingestion Stage started <<<<<<<<<<<]
+[2024-07-25 22:35:17,609: ERROR: stage_01_data_ingestion: [Errno 2] No such file or directory: 'config\\config.yaml']
+Traceback (most recent call last):
+  File "D:\EndToEnd\MLFLOW\mlflow-end-to-end-0713\src\mlproject_0713\pipeline\stage_01_data_ingestion.py", line 24, in <module>
+    obj.main()
+  File "D:\EndToEnd\MLFLOW\mlflow-end-to-end-0713\src\mlproject_0713\pipeline\stage_01_data_ingestion.py", line 13, in main
+    config = ConfigurationManager()
+  File "D:\EndToEnd\MLFLOW\mlflow-end-to-end-0713\src\mlproject_0713\config\configuration.py", line 12, in __init__
+    self.config = read_yaml(config_filepath)
+  File "D:\EndToEnd\MLFLOW\mlflow-end-to-end-0713\mini01\lib\site-packages\ensure\main.py", line 849, in __call__
+    return_val = self.f(*args, **kwargs)
+  File "D:\EndToEnd\MLFLOW\mlflow-end-to-end-0713\src\mlproject_0713\utils\common.py", line 37, in read_yaml
+    raise e
+  File "D:\EndToEnd\MLFLOW\mlflow-end-to-end-0713\src\mlproject_0713\utils\common.py", line 30, in read_yaml
+    with open(path_to_yaml) as yaml_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'config\\config.yaml'
