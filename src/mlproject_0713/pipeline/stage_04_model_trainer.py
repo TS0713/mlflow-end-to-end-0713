@@ -1,28 +1,27 @@
 from mlproject_0713.config.configuration import ConfigurationManager
-from mlproject_0713.components.data_ingestion import DataIngestion
+from mlproject_0713.components.model_trainer import ModelTrainer
 from mlproject_0713 import logger
+from pathlib import Path
 
+STAGE_NAME = "Model Trainer"
 
-STAGE_NAME = "Data Ingestion Stage"
-
-
-class DataIngestionTrainingPipeline:
+class ModelTrainingPipeline:
     def __init__(self):
         pass
     def main(self):
         config = ConfigurationManager()
-        data_ingestion_config = config.get_data_ingestion_config()
-        data_ingestion = DataIngestion(config=data_ingestion_config)
-        data_ingestion.download_file()
-        data_ingestion.extract_zip_file()
+        model_trainer_config = config.get_model_trainer_config()
+        model_trainer = ModelTrainer(config = model_trainer_config)
+        model_trainer.train()
 
 
 if __name__ == "__main__":
     try:
         logger.info(f">>>>>>>>>> {STAGE_NAME} started <<<<<<<<<<<")
-        obj = DataIngestionTrainingPipeline()
+        obj = ModelTrainingPipeline()
         obj.main()
         logger.info(f">>>>>>>>>> {STAGE_NAME} completed <<<<<<<<<<<\n\nx================x")
     except Exception as e:
         logger.exception(e)
         raise e
+
